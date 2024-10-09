@@ -101,7 +101,7 @@ public class SellerDaoJDBC implements SellerDao {
 			int rows = st.executeUpdate();
 			
 			if(rows == 0) {
-				System.out.println("the ID entered does not exist.");
+				System.out.println("the ID entered does not exist");
 			}
 		}
 		catch(SQLException e) {
